@@ -14,11 +14,11 @@
         <div class="movie-list">
 					<% @series.each do |serie|%>
 						<div class="movie">
-							<a href='/series/<%=serie.id%>'><figure class="movie-poster"><img src="/dummy/batman.jpg" alt="#"></figure></a>
+							<figure class="movie-poster"><img src="/dummy/batman.jpg" alt="#"></figure>
 							<div class="row">
 								<div class= "col-8">
 									<div class="movie-title"> 
-                    <a href='/series/<%=serie.id%>'>
+                    <a>
                       <%= serie.name%> 
                     </a> 
                   </div>
